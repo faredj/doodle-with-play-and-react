@@ -1,9 +1,9 @@
 import React from "react"
 
 const Login = props => {
-    return (
-        <div>login</div>
-    )
+  return (
+    <div>login</div>
+  )
 }
 
 export default Login
