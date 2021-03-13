@@ -3,7 +3,7 @@ import { BrowserRouter, Switch, Route, Redirect } from "react-router-dom"
 import Register from "./pages/connection/register/Register"
 import Login from "./pages/connection/login/Login"
 
-function App() {
+const App = () => {
   return (
     <BrowserRouter>
       <Switch>
