@@ -2,14 +2,18 @@
   "root": true,
   "extends": [
     "eslint:recommended",
-    "plugin:react/recommended"
+    "plugin:react/recommended",
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:@typescript-eslint/recommended-requiring-type-checking"
   ],
   "plugins": [
     "react",
     "jsx-a11y",
     "import",
     "fp",
-    "unused-imports"
+    "unused-imports",
+    "@typescript-eslint"
   ],
   "env": {
     "browser": true,
