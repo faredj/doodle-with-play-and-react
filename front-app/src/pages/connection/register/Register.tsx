@@ -36,14 +36,14 @@ const Register = () => {
               <Grid item>
                 <Card className={classes.card}>
                   <CardContent className={classes.cardContent}>
-                    <Typography>Inscription</Typography>
+                    <Typography>Registration</Typography>
                     <Field name="firstName" component={TextInput} label="First name" />
                     <Field name="lastName" component={TextInput} label="Last name" />
                     <Field name="email" component={TextInput} label="Email" />
                     <Field name="password" type={"password"} component={TextInput} label="Password" />
                   </CardContent>
                   <CardActions className={classes.action}>
-                    <Button variant="outlined" color={"primary"} type={"submit"}>Inscription</Button>
+                    <Button variant="outlined" color={"primary"} type={"submit"}>Registration</Button>
                   </CardActions>
                 </Card>
               </Grid>
